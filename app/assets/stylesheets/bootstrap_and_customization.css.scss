@@ -4,14 +4,14 @@
 $font-family-sans-serif: 	"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $body-bg:    #bdc3c7;
 $brand-primary:		#ED7D87;
-$jumbotron-padding:		50px;
 
+$jumbotron-padding:		50px;
 
 $navbar-inverse-bg:		#c0392b;
 $navbar-inverse-link-color: 		#ecf0f1;
 $navbar-height:		75px;
-$navbar-margin-bottom:		0;
 $navbar-inverse-border:		#c0392b;
+$navbar-inverse-link-hover-color:		#bdc3c7;
 
 
 @import 'bootstrap';
@@ -22,4 +22,8 @@ $navbar-inverse-border:		#c0392b;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.full-width {
+	margin:none;
 }
